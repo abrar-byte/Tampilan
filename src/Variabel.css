@@ -1,0 +1,14 @@
+.b{
+   color: seashell;
+   font-weight: 700;
+   font-size: 20pt; 
+}
+
+body{
+    text-align: center;
+    margin-top: 250px;
+    background-image: url("./Bumble.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
