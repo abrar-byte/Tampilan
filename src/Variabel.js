@@ -21,8 +21,8 @@ export default class Perubahan extends Component {
    
     render() {
         return (
-        <div className="abc">
-            <div>
+        <div>
+            <div className="a">
            <button onClick={() => this.setState({c: 'Klik'})}>Klik</button>
            <button onClick={() => this.setState({c: 'Everybody'})}>Klik Aku Juga</button>
            <button onClick={() => this.setState({c: 'Thanks'})}>Klik Aku Woyyy</button>
@@ -34,7 +34,7 @@ export default class Perubahan extends Component {
            <div className="b">     
            {this.state.c ==='Klik' && <Hello /> }
            {this.state.c ==='Everybody' && <EveryBody />}
-           {this.state.c ==='Thanks' && <p>Thanks</p>}
+           {this.state.c ==='Thanks' && <p>Ndak Bisa Bahasa Inggris</p>}
            {this.state.c ==='Kosong' && <p></p>}
            </div>
 
