@@ -22,7 +22,7 @@ export default class Perubahan extends Component {
     render() {
         return (
         <div>
-            <div className="a">
+            <div>
            <button onClick={() => this.setState({c: 'Klik'})}>Klik</button>
            <button onClick={() => this.setState({c: 'Everybody'})}>Klik Aku Juga</button>
            <button onClick={() => this.setState({c: 'Thanks'})}>Klik Aku Woyyy</button>
